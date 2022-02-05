@@ -1,5 +1,4 @@
-
-name: myaction
+name: CI
 
 on: workflow_dispatch
 
@@ -40,3 +39,5 @@ jobs:
       run: cmd /c NGROK-CHECK.bat
     - name: All Done! You can close Tab now! Maximum VM time:6h.
       run: cmd /c loop.bat 
+      
+    
